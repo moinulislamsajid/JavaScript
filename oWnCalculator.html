@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>own Calculator</title>
+</head>
+<body>
+    <script>
+        var num1 = prompt("Enter first number : ");
+        var num2 = prompt("Enter second number : ")
+        // type conversion string to integer
+        num1 = parseInt(num1);
+        num2 = parseInt(num2); 
+        var sum = num1 + num2;
+        var sub = num1 - num2;
+        var mul = num1 * num2;
+        var div = num1 / num2;
+        var rem = num1 % num2;
+        document.write("Addition  is : "+sum);
+        document.write("<br/>Subtraction  is : "+sub);
+        document.write("<br/>Multiflication  is : "+mul);
+        document.write("<br/>Devision : "+div);
+        document.write("Reminder  is : "+rem);
+    </script>
+</body>
+</html>
